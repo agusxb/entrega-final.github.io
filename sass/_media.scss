@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+    .descrip-noticias {
+        h3 {
+        font-size: 15px;
+        display: block;
+        width: 370px;
+        margin-left: 100px;
+        margin-right: 50px;
+        justify-content: center;
+        align-content: center;
+        }
+    }
+
+    #titulo-principal {
+        p {
+        font-size: 30px;
+        display: block;
+        width: 370px;
+        margin-left: 100px;
+        margin-right: 50px;
+        justify-content: center;
+        }
+    }
+
+    .descripcion {
+        font-size: 15px;
+        display: block;
+        width: 370px;
+        margin-left: 100px;
+        margin-right: 50px;
+        justify-content: center;
+    }
+
+    .link-noticias {
+        .noticia1 {
+        display: inline-block;
+        width: 350px;
+        height: 500px;
+        padding: 5px;
+        margin-left: 20px;
+        }
+    }
+
+    .btn-noticias {
+        font-size: 15px;
+        display: block;
+        width: 75px;
+        margin-left: 100px;
+        margin-right: 50px;
+        justify-content: center;
+    }
+
+    .titulo-army {
+        h3 {
+        font-size: 15px;
+        display: block;
+        width: 370px;
+        margin-left: 200px;
+        margin-right: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        }
+    }
+
+    .parrafo-foto {
+        img {
+        display: none;
+        visibility: hidden;
+        }
+    }
+
+
+    .h-debut {
+        h4 {
+        margin-top: 1cm;
+        color: maroon;
+        }
+    }
+
+
+    .img2 {
+        width: 45%;
+        padding: 5px;
+        justify-self: center;
+        margin: 1cm 2cm;
+    }
+
+
+    .no-more-dream {
+        iframe {
+        margin-left: 2cm;
+        margin-bottom: 1cm;
+        margin-right: 2cm;
+        margin-top: 1cm;
+        width: 60%;
+        }
+    }
+
+    table {
+        margin: 0 2cm;
+        width: 80%;
+        tr {
+        td {
+        border: #000 solid 1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+      }
+    }
+
+    .grid-music {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+        
+        .cancion1 {
+            iframe {
+            display: flex;
+            width: 350px;
+            margin-left: 2cm;
+            }
+        }
+    }
+    
+
+}
