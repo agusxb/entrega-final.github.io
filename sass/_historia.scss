@@ -1,0 +1,78 @@
+
+.titulo-main {
+    h1 {
+    text-align: center;
+    margin-bottom: 1cm;
+    text-decoration: underline;
+    color: $colorPrincipal;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+}
+
+.img1 {
+    display: block;
+    width: 50%;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+
+.parrafo-foto {
+    display: flex;
+    justify-content: center;
+    margin-top: 1cm;
+    img {
+     width: 300px;
+     height: 250px;
+     margin-right: 4cm;
+     margin-bottom: 1cm;
+    }
+}
+
+.parrafo-foto {
+    img:hover {
+        transform: scale(1.5);
+    }
+}
+
+
+.historia1 {
+    h3 {
+    text-align: justify;
+    color: $colorPrincipal;
+    margin: 1cm 4cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    }
+}
+
+.h-debut {
+    h4 {
+    text-align: justify;
+    margin: 1.5cm 3cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: $colorSecun;
+    text-decoration: underline;
+    }
+}
+
+.img2 {
+    width: 40%;
+    padding: 5px;
+    justify-self: center;
+    margin: 1cm 3cm;
+}
+
+.no-more-dream {
+    iframe {
+    margin-left: 3cm;
+    margin-bottom: 1cm;
+    margin-right: 3cm;
+    margin-top: 1cm;
+    width: 35%;
+    }
+}

@@ -1,0 +1,29 @@
+.img3 {
+    width: 50%;
+    margin: 1.5cm 3cm;
+}
+
+#tabla2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1cm;
+    .sombra-tab {
+    background-color: plum;
+    font-weight: bold;
+    }
+}
+
+
+.grid-music {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    .cancion1 {
+        iframe {
+        display: flex;
+        width: 400px;
+        margin-left: 2cm;
+        }
+    }
+}

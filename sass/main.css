@@ -24,10 +24,13 @@
   justify-content: center;
 }
 .descrip-noticias h3 {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
+  color: slategray;
   text-decoration: underline;
   margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-bottom: 50px;
 }
 
@@ -36,7 +39,7 @@
   justify-content: center;
 }
 .titulo-army h3 {
-  font-size: 20px;
+  color: maroon;
   font-weight: bold;
   text-decoration: underline;
   margin-top: 50px;
@@ -62,21 +65,8 @@
   margin-bottom: 1cm;
 }
 
-.titulo-main h1 {
-  text-align: center;
-  margin-bottom: 1cm;
-  text-decoration: underline;
-  color: maroon;
-  font-style: oblique;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-.h-debut h4 {
-  text-align: justify;
-  margin: 1.5cm 3cm;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  text-decoration: underline;
+.army img:hover {
+  transform: rotate(40deg);
 }
 
 h2 {
@@ -85,14 +75,7 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   background-color: beige;
-  max-width: 100px;
-}
-
-.historia1 h3 {
-  text-align: justify;
-  margin: 1cm 4cm;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
+  max-width: 150px;
 }
 
 p {
@@ -103,9 +86,30 @@ p {
   line-height: 1.6;
 }
 
+footer {
+  background-color: lightgrey;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+}
+footer p {
+  margin: 1cm 1cm;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+.titulo-main h1 {
+  text-align: center;
+  margin-bottom: 1cm;
+  text-decoration: underline;
+  color: maroon;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .img1 {
   display: block;
-  width: 40%;
+  width: 50%;
   justify-content: center;
   margin-left: 30%;
   margin-top: 1cm;
@@ -124,11 +128,40 @@ p {
   margin-bottom: 1cm;
 }
 
+.parrafo-foto img:hover {
+  transform: scale(1.5);
+}
+
+.historia1 h3 {
+  text-align: justify;
+  color: maroon;
+  margin: 1cm 4cm;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.h-debut h4 {
+  text-align: justify;
+  margin: 1.5cm 3cm;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: slategray;
+  text-decoration: underline;
+}
+
 .img2 {
   width: 40%;
   padding: 5px;
   justify-self: center;
   margin: 1cm 3cm;
+}
+
+.no-more-dream iframe {
+  margin-left: 3cm;
+  margin-bottom: 1cm;
+  margin-right: 3cm;
+  margin-top: 1cm;
+  width: 35%;
 }
 
 .tablafila {
@@ -149,13 +182,8 @@ table tr td {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.video-joon {
-  margin: 1cm 3cm;
-  width: 35%;
-}
-
 .img3 {
-  width: 40%;
+  width: 50%;
   margin: 1.5cm 3cm;
 }
 
@@ -179,20 +207,6 @@ table tr td {
   display: flex;
   width: 400px;
   margin-left: 2cm;
-}
-
-.cancion2 {
-  display: inline-block;
-  padding: 10px;
-  margin-left: 4cm;
-}
-
-.no-more-dream iframe {
-  margin-left: 3cm;
-  margin-bottom: 1cm;
-  margin-right: 3cm;
-  margin-top: 1cm;
-  width: 35%;
 }
 
 .enlaces {
@@ -243,18 +257,6 @@ table tr td {
   font-size: 15px;
 }
 
-footer {
-  background-color: lightgrey;
-  height: 100px;
-  display: flex;
-  justify-content: end;
-}
-footer p {
-  margin: 1cm 1cm;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  color: black;
-}
-
 @media (max-width: 768px) {
   .link-noticias .noticia1 {
     display: inline-block;
@@ -272,10 +274,10 @@ footer p {
     justify-content: center;
   }
   .titulo-army h3 {
-    font-size: 15px;
+    font-size: 18px;
     display: block;
     width: 370px;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
