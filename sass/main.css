@@ -177,7 +177,7 @@ table tr td {
 }
 .grid-music .cancion1 iframe {
   display: flex;
-  width: 350px;
+  width: 400px;
   margin-left: 2cm;
 }
 
@@ -317,7 +317,7 @@ footer p {
   }
   .grid-music .cancion1 iframe {
     display: flex;
-    width: 60%;
+    width: 300px;
     margin-left: 1cm;
   }
 }/*# sourceMappingURL=main.css.map */
